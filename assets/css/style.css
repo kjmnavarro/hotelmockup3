@@ -1,0 +1,727 @@
+/** {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*/
+body {
+	margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.site-hero1{
+	background-color: transparent;
+	background: url(../images/sitehero/landingpage1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+
+	/*opacity : 0.4;
+    filter: alpha(opacity=40); */
+
+    /*-webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);*/
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000032;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #000032;
+	color: #ffffff;
+}
+
+#hmeactive1{
+	color: #000032;
+}
+
+#hmeactive2{
+	background-color: #000032;
+	color: #ffffff;
+}
+
+.btncusto {
+	background-color: #ffffff;
+	color: #000032;
+	letter-spacing: 1.5px;
+	width: 104px;
+	height: 39px;
+}
+
+.btncusto:hover{
+	background-color: #000032;
+	color: #ffffff;
+}
+
+.h1sec1{
+	font-family: requiem-roman,Georgia,Arial;
+	color: #000032;
+	letter-spacing: 2px;
+}
+
+.h1sec2{
+	font-family: requiem-roman,Georgia,Arial;
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+
+.btncusto2 {
+	background-color: #fff;
+	color: #000032;
+	letter-spacing: 1.5px;
+	height: 39px;
+	border: 1px solid #000032;
+}
+
+.btncusto2:hover {
+	background-color: #000032;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.btncusto3{
+	background-color: #fff;
+	color: #000032;
+	letter-spacing: 1.5px;
+	height: 39px;
+	border: 1px solid #000032;
+}
+
+.btncusto3:hover {
+	background-color: #000032;
+	color: #fff;
+}
+
+#navscr{
+	/*position: fixed;
+	top: 0px;
+	width: 100%; 
+	height: 135px; */
+	background-color: #ffffff;
+	z-index: 9999;
+	display: none;
+}
+
+hr.style-one {
+border: 0;
+height: 1px;
+background: #ff0000;
+background-image: -webkit-linear-gradient(left, #ccc, #ff0000, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #ff0000, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #ff0000, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #ff0000, #ccc);
+}
+
+hr.style-two {
+border: 0;
+height: 5px;
+background: #fff;
+background-image: -webkit-linear-gradient(left, #ccc, #fff, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #fff, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #fff, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #fff, #ccc);
+}
+
+
+#sec1pic{
+	background-image: url(../images/sitehero/landingpage1.jpg);
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#carousect2, #carousect3{
+	display: none;
+}
+
+#smlcarou2, #smlcarou3{
+	opacity: 0.5;
+}
+
+a.smlcaranch{
+	text-decoration: none;
+}
+
+a.smlcaranch:hover{
+	opacity: 0.5;
+}
+
+.site-hero2{
+	background-color: transparent;
+	background: url(../images/sitehero/lounge.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 409px;
+	width: 100%;
+}
+
+#movee1{
+	position: relative;
+	top: 25%;
+	left: 60%;
+}
+
+.site-hero3{
+	background-color: transparent;
+	background: url(../images/sitehero/resto.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 409px;
+	width: 100%;
+}
+
+#movee2{
+	position: relative;
+	margin-top: -80px;
+	background-color: #fff;
+}
+
+#crdimg1{
+	background-color: transparent;
+	background: url(../images/sitehero/cafe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 445px;
+
+	transition: all 0.5s ease;
+}
+
+#crdimg2{
+	background-color: transparent;
+	background: url(../images/gallery/unhotel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 445px;
+
+	transition: all 0.5s ease;
+}
+
+#hoverhp{
+	background-color: #000032;
+	color: #ffffff;
+}
+
+#innercrd1:hover, #innercrd1:hover h1{
+	background-color: #000032;
+	color: #fff;
+}
+
+#innercrd1:hover a{
+	background-color: #000032;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+#innercrd2:hover, #innercrd2:hover h1{
+	background-color: #000032;
+	color: #fff;
+}
+
+#innercrd2:hover a{
+	background-color: #000032;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.testhover1:hover #crdimg1{
+	transform: scale(1.1);
+}
+
+.testhover1:hover #crdimg2{
+	transform: scale(1.1);
+}
+
+.fontbluee{
+	color: #000032;
+}
+
+.site-hero4{
+	background-color: transparent;
+	background: url(../images/hdgallery/bed1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 409px;
+	width: 100%;
+}
+
+#minisite-hero1{
+	background-color: transparent;
+	background: url(../images/gallery/atomaraullo.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 100%;
+}
+
+#minisite-hero2{
+	background-color: transparent;
+	background: url(../images/gallery/bride1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#minisite-hero3{
+	background-color: transparent;
+	background: url(../images/gallery/bridegroom.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#minisite-hero4{
+	background-color: transparent;
+	background: url(../images/gallery/bridestair.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#minisite-hero5{
+	background-color: transparent;
+	background: url(../images/gallery/entrance1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#minisite-hero6{
+	background-color: transparent;
+	background: url(../images/gallery/gym.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#minisite-hero6{
+	background-color: transparent;
+	background: url(../images/gallery/entrance2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#minisite-hero7{
+	background-color: transparent;
+	background: url(../images/gallery/unhotel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+.bg-foot{
+	background-color: #000032;
+	color: #fff; 
+}
+
+
+/*accomodations html*/
+
+.site-hero5{
+	background-color: transparent;
+	background: url(../images/accomodations/bed1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 409px;
+	width: 100%;
+}
+
+.accomcrd1:hover, .accomcrd1:hover h2{
+	background-color: #000032;
+	color: #fff;
+}
+
+.accomcrd1:hover a{
+	background-color: #000032;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+#acoimg1{
+	background-color: transparent;
+	background: url(../images/accomodations/supbed.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 445px;
+
+	transition: all 0.5s ease;
+}
+
+.testhover1:hover #acoimg1{
+	transform: scale(1.1);
+}
+
+#acoimg2{
+	background-color: transparent;
+	background: url(../images/accomodations/deluxebed.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 445px;
+
+	transition: all 0.5s ease;
+}
+
+.testhover1:hover #acoimg2{
+	transform: scale(1.1);
+}
+
+#acoimg3{
+	background-color: transparent;
+	background: url(../images/accomodations/premierbed.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 445px;
+
+	transition: all 0.5s ease;
+}
+
+.testhover1:hover #acoimg3{
+	transform: scale(1.1);
+}
+
+#acoimg4{
+	background-color: transparent;
+	background: url(../images/accomodations/empbed.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 445px;
+
+	transition: all 0.5s ease;
+}
+
+.testhover1:hover #acoimg4{
+	transform: scale(1.1);
+}
+
+/*dining html*/
+
+.site-hero6{
+	background-color: transparent;
+	background: url(../images/dining/sitehero6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+}
+
+#borderryt{
+	border-left: 1px solid #000000;
+}
+
+.menuimg1{
+	background-color: transparent;
+	background: url(../images/dining/menu1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+
+/*wellness html*/
+
+#gymimg{
+	background-color: transparent;
+	background: url(../images/wellness/gym1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+
+/* events html */
+
+.site-hero7{
+	background-color: transparent;
+	background: url(../images/events/wed1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+}
+
+.ulblletred{
+	list-style: none;
+}
+
+.ulblletred li::before{
+	content: "\2022";
+	color: #ff0000;
+	font-weight: bold;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+}
+
+#wedimg1{
+	background-color: transparent;
+	background: url(../images/events/wed2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+
+#wedimg2{
+	background-color: transparent;
+	background: url(../images/events/wed3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+
+#wedimg3{
+	background-color: transparent;
+	background: url(../images/events/wed4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+
+#wedimg4{
+	background-color: transparent;
+	background: url(../images/events/wed5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 100%;
+}
+
+#contevent1{
+	background-color: #000032;
+	height: 300px;
+	width: 100%;
+	margin-left: -5%;
+}
+
+/* offers html*/
+
+.site-hero8{
+	background-color: transparent;
+	background: url(../images/offers/offer1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+}
+
+#offerimg1{
+	background-color: transparent;
+	background: url(../images/offers/offer2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 350px;
+
+	transition: all 0.5s ease;
+}
+
+.testhover1:hover #offerimg1{
+	transform: scale(1.1);
+}
+
+#offerimg2{
+	background-color: transparent;
+	background: url(../images/offers/offer3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 350px;
+
+	transition: all 0.5s ease;
+}
+
+.testhover1:hover #offerimg2{
+	transform: scale(1.1);
+}
+
+#offerimg3{
+	background-color: transparent;
+	background: url(../images/offers/offer4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 350px;
+
+	transition: all 0.5s ease;
+}
+
+.testhover1:hover #offerimg3{
+	transform: scale(1.1);
+}
+
+.offercrd1:hover, .offercrd1:hover h2{
+	background-color: #000032;
+	color: #fff;
+}
+
+.offercrd1:hover a{
+	background-color: #000032;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+/* gallery html */
+
+#galleimg1{
+	background: url(../images/gallery/fountain.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+}
+
+#galleimg2{
+	background: url(../images/gallery/entrance1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+
+#galleimg3{
+	background: url(../images/gallery/atomaraullo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#galleimg4{
+	background: url(../images/gallery/chingchongdantes.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#galleimg5{
+	background: url(../images/gallery/robinpadilla.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#galleimg6{
+	background: url(../images/gallery/canteen1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#galleimg7{
+	background: url(../images/gallery/bride1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+}
+
+#galleimg8{
+	background: url(../images/gallery/bridegroom.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+
+#galleimg9{
+	background: url(../images/gallery/bridestair.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#galleimg10{
+	background: url(../images/gallery/groomsmen.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#galleimg11{
+	background: url(../images/gallery/gym.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
+
+#galleimg12{
+	background: url(../images/gallery/unhotel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+}
