@@ -22,22 +22,6 @@
 
   	<link rel="icon" href="assets/images/logo/logo.png" type="image/gif" sizes="16x16">
 
-  	<script src="http://code.jquery.com/jquery-latest.js"></script>
-
-	<script type="text/javascript">
-	(function($) {          
-	    $(document).ready(function(){                    
-	        $(window).scroll(function(){                          
-	            if ($(this).scrollTop() > 200) {
-	                $('#navscr').slideDown(500);
-	            } else {
-	                $('#navscr').slideUp(500);
-	            }
-	        });
-	    });
-	})(jQuery);
-	</script>
-
 </head>
 <body>
 
@@ -394,6 +378,22 @@
 <script>
 	AOS.init();
 </script>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+	<script type="text/javascript">
+	(function($) {          
+	    $(document).ready(function(){                    
+	        $(window).scroll(function(){                          
+	            if ($(this).scrollTop() > 200) {
+	                $('#navscr').slideDown(500);
+	            } else {
+	                $('#navscr').slideUp(500);
+	            }
+	        });
+	    });
+	})(jQuery);
+	</script>
 
 </body>
 </html>
