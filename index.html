@@ -379,21 +379,22 @@
 	AOS.init();
 </script>
 
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="assets/js/jquery-latest.js"></script>
+<!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
 
-	<script type="text/javascript">
+<script type="text/javascript">
 	(function($) {          
-	    $(document).ready(function(){                    
-	        $(window).scroll(function(){                          
-	            if ($(this).scrollTop() > 200) {
-	                $('#navscr').slideDown(500);
-	            } else {
-	                $('#navscr').slideUp(500);
-	            }
-	        });
-	    });
-	})(jQuery);
-	</script>
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 200) {
+                $('#navscr').slideDown(500);
+            } else {
+                $('#navscr').slideUp(500);
+            }
+        });
+    });
+})(jQuery);
+</script>
 
 </body>
 </html>
