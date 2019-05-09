@@ -1,11 +1,12 @@
-/** {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-*/
+
 body {
 	margin: 0;
+	overflow-x: hidden;
 }
 
 html {
@@ -29,11 +30,12 @@ html {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #000032;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #000032;
+    background-color: #000032;
+	color: #ffffff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -463,7 +465,7 @@ a.smlcaranch:hover{
 
 /*wellness html*/
 
-#gymimg{
+	{
 	background-color: transparent;
 	background: url(../images/wellness/gym1.jpg);
 	background-repeat: no-repeat;
@@ -724,4 +726,52 @@ a.smlcaranch:hover{
 	background-position: center;
 	height: 150px;
 	width: 100%;
+}
+
+/*---------------------DESKTOP-----------------------*/
+
+@media only screen and (min-width: 961px) {
+	
+	
+}
+
+
+/*---------------------Tablet---------------------*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	
+	#crdimg1, #crdimg2,#acoimg1,#acoimg2,#acoimg3,#acoimg4,#offerimg1,#offerimg2,#offerimg3{
+		width: 100%;
+	}
+
+	#movee1{
+		position: relative;
+		top: 25%;
+		left: 0%;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+    	color: #000032;
+	}
+
+	
+}
+
+/*----------------Mobile-------------------*/
+@media only screen and (max-width: 401px) {
+	
+	#crdimg1, #crdimg2,#acoimg1,#acoimg2,#acoimg3,#acoimg4,#offerimg1,#offerimg2,#offerimg3{
+		width: 100%;
+	}
+
+	#movee1{
+		position: relative;
+		top: 25%;
+		left: 0%;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+    	color: #000032;
+	}
+
+
 }
